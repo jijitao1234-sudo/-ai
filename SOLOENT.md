@@ -16,11 +16,11 @@
 
 | 功能角色 | 匹配关键词 | 默认值（如果为空） | 已解析路径 | 状态 |
 | --- | --- | --- | --- | --- |
-| **世界** | `world`, `lore`, `setting` | `world/` |  | [待处理/已映射] |
-| **角色** | `character`, `chars`, `actors` | `characters/` |  | [待处理/已映射] |
-| **大纲** | `outline`, `plot`, `storyboard` | `outline/` |  | [待处理/已映射] |
-| **章节** | `chapter`, `draft`, `manuscript` | `chapters/` |  | [待处理/已映射] |
-| **笔记** | `note`, `research`, `idea` | `notes/` |  | [待处理/已映射] |
+| **世界** | `world`, `lore`, `setting` | `world/` | `world/` | [已创建：等待内容] |
+| **角色** | `character`, `chars`, `actors` | `characters/` | `characters/` | [已创建：等待内容] |
+| **大纲** | `outline`, `plot`, `storyboard` | `outline/` | `outline/` | [已创建：等待内容] |
+| **章节** | `chapter`, `draft`, `manuscript` | `chapters/` | `chapters/` | [已创建：等待内容] |
+| **笔记** | `note`, `research`, `idea` | `notes/` | `notes/` | [已创建：等待内容] |
 
 ---
 
