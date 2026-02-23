@@ -16,11 +16,11 @@
 
 | 功能角色 | 匹配关键词 | 默认值（如果为空） | 已解析路径 | 状态 |
 | --- | --- | --- | --- | --- |
-| **世界** | `world`, `lore`, `setting` | `world/` | `world/` | [已创建：等待内容] |
-| **角色** | `character`, `chars`, `actors` | `characters/` | `characters/` | [已创建：等待内容] |
-| **大纲** | `outline`, `plot`, `storyboard` | `outline/` | `outline/` | [已创建：等待内容] |
-| **章节** | `chapter`, `draft`, `manuscript` | `chapters/` | `chapters/` | [已创建：等待内容] |
-| **笔记** | `note`, `research`, `idea` | `notes/` | `notes/` | [已创建：等待内容] |
+| **世界** | `world`, `lore`, `setting` | `world/` | `世界/` | [已重命名：中文路径] |
+| **角色** | `character`, `chars`, `actors` | `characters/` | `角色/` | [已重命名：中文路径] |
+| **大纲** | `outline`, `plot`, `storyboard` | `outline/` | `大纲/` | [已重命名：中文路径] |
+| **章节** | `chapter`, `draft`, `manuscript` | `chapters/` | `章节/` | [已重命名：中文路径] |
+| **笔记** | `note`, `research`, `idea` | `notes/` | `笔记/` | [已重命名：中文路径] |
 
 ---
 
@@ -54,14 +54,14 @@
 > *根据故事类型总结核心世界规则*
 
 ### 2.2 世界索引（指针）
-- [名称] -> `world/<文件>.md`
+- [名称] -> `世界/<文件>.md`
 
 ---
 
 ## 3. 角色（索引与关系）
 ### 3.1 角色索引（简洁）
 - 主要角色：
-  - [姓名]（年龄，职业，故事角色） -> `characters/<姓名>.md`
+  - [姓名]（年龄，职业，故事角色） -> `角色/<姓名>.md`
 - 配角：
   - ...
 
@@ -77,8 +77,8 @@
 - 章节范围：
 
 ### 4.2 大纲索引（指针）
-- [主大纲] -> `outline/master-outline.md`
-- [卷大纲] -> `outline/volume_XX_outline.md`
+- [主大纲] -> `大纲/master-outline.md`
+- [卷大纲] -> `大纲/volume_XX_outline.md`
 - ...
 
 ---
